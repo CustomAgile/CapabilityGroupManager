@@ -1,0 +1,145 @@
+.app {
+     padding: 10px;
+}
+
+.app .titleText {
+	font-size: 20px;
+	border-bottom: 1px solid #AAA;
+	margin-bottom: 10px;
+}
+
+.app .leftSide {
+	float: left;
+	width: 50%;
+}
+
+.app .leftSide .subTitleText {
+	font-size: 14px;
+	margin: 4px 0;
+}
+
+.app .leftSide .capabilityGroups {
+	margin: 8px 0;
+	padding: 5px;
+	height: 150px;
+	border: 2px inset #AAA;
+	overflow: auto;
+}
+
+.app .leftSide .capabilityGroup {
+}
+
+.app .leftSide .capabilityGroupOwner {
+	float: left;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.app .leftSide .ownerCheckbox {
+	float: left;
+	margin-right: 5px;
+}
+
+.app .leftSide .capabilityGroupName {
+	float: left;
+	margin-top: 5px;
+}
+
+.app .leftSide .ownerText {
+	float: left;
+	color: #777;
+	margin-top: 5px;
+	visibility: hidden;
+}
+
+.app .leftSide .x-form-cb-checked ~ .ownerText {
+	visibility: visible !important;
+}
+
+.app .leftSide .deleteCapabilityGroup {
+	float: left;
+	color: #888;
+	font-weight: bold;
+	padding: 2px 0 0 0;
+}
+
+.app .leftSide .capabilityGroupCombobox {
+	float: left;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+.app .leftSide .addButton {
+	float: left;
+}
+
+.app .leftSide .saveText {
+	float: left;
+	color: #777;
+	font-size: 14px;
+	margin: 4px 5px;
+}
+
+.app>.rightSide {
+	float: left;
+	width: 50%;
+	padding-left: 20px;
+}
+
+.app .rightSide .pullButton{
+	float: left;
+}
+
+.app .rightSide .pullText {
+	font-size: 14px;
+	padding: 3px 5px;
+	float: left;
+	color: #444;
+	display: none;
+}
+
+.app .rightSide .changeOwnerText {
+	float: left;
+	padding: 5px;
+	color: red;
+	display: none;
+}
+
+.app .rightSide .changeOwnerTextVisible {
+	display: block;
+}
+
+.app .rightSide .pullTextVisible {
+	display: block;
+}
+
+.app .rightSide .capabilityGroupTree {
+	padding: 10px;
+	clear: both;
+}
+
+.app .rightSide .pill {
+	overflow: auto;
+}
+
+.app .rightSide .textContent {
+	float: left;
+	margin-right: 0;
+}
+
+.app .rightSide .pill .rightSide {
+	float: right;
+}
+
+.app .rightSide .pill .rightSide .row-project {
+	float: right;
+}
+
+.app .rightSide .pill .percentDoneContainer {
+	float: right;
+	position: relative;
+	margin-right: 10px;
+	right: 0;
+	top: 0;
+}
+
